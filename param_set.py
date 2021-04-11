@@ -70,9 +70,11 @@ def training_params():
     params = {
         'cv_num': cv_num_valid,
         'cv_num_test': cv_num_test,
+        'calculate_fc_FLAG': calculate_fc_FLAG,
         'save_FLAG': save_FLAG,
         'source_dir': source_dir,
         'output_dir': output_dir,
+        'preparation_params': preparation_params,
         'nn_params': nn_params,
         'tuning_params_svm': tuning_params_svm,
         'tuning_params_rf': tuning_params_rf

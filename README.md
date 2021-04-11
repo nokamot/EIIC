@@ -19,10 +19,18 @@ Make 2 directories for save intermidiate files (input data and labels) and final
 4. preparation_params['path_structure']: Each ROI timeseries files
 
 ### 3. Train models and output results
-1. Start docker container mounting a directory including these codes and necessary files we mentiond in section 2 (Set config file).
-sudo docker run -it --rm --gpus device=0 -v /Path/to/codes/in/host:Path/to/codes/in/container pytorch/pytorch:1.8.1-cuda11.1-cudnn8-runtime
-cd /ws
-2. Install required packages by pip and run.
-pip install scikit-learn pandas openpyxl
-python run.py
+1. Pull Pytorch docker image.
+```bash
+sudo docker pull pytorch/pytorch:1.8.1-cuda11.1-cudnn8-runtime
+```
+2. Start docker container mounting a directory including these codes and necessary files we mentiond in section 2 (Set config file).
+```bash
+sudo docker run -it --rm --gpus device=0 -v /Path/to/codes/in/host:/Path/to/codes/in/container pytorch/pytorch:1.8.1-cuda11.1-cudnn8-runtime
+```
 
+3. Install required packages by pip and run.
+```bash
+pip install scikit-learn pandas openpyxl
+cd /Path/to/codes/in/container
+python run.py
+```
