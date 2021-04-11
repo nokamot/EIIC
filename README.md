@@ -19,6 +19,6 @@ Make 2 directories for save intermidiate files (input data and labels) and final
 4. preparation_params['path_structure']: Each ROI timeseries files
 
 ### 3. Train models and output results
-1. Start docker container mounting a directory including these codes and necessary directories and files we mentiond in section 2(Set config file).
+1. Start docker container mounting a directory including these codes and necessary files we mentiond in section 2 (Set config file).
 2. Install required packages by pip and run.
 
