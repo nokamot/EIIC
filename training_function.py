@@ -186,7 +186,7 @@ def train_cl(total_epoch, criterion, model, train_loader, valid_loader, optimize
 
             # Update learning rate
             scheduler.step()
-る
+            
             data = data.to(device)
             target = target.to(device)
 
