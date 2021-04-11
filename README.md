@@ -24,5 +24,5 @@ sudo docker run -it --rm --gpus device=0 -v /Path/to/codes/in/host:Path/to/codes
 cd /ws
 2. Install required packages by pip and run.
 pip install scikit-learn pandas openpyxl
-
+python run.py
 
