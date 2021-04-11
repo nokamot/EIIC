@@ -28,7 +28,7 @@ sudo docker pull pytorch/pytorch:1.8.1-cuda11.1-cudnn8-runtime
 sudo docker run -it --rm --gpus device=0 -v /Path/to/codes/in/host:/Path/to/codes/in/container pytorch/pytorch:1.8.1-cuda11.1-cudnn8-runtime
 ```
 
-3. Install required packages by pip and run.
+3. Install required packages by pip and run in the container.
 ```bash
 pip install scikit-learn pandas openpyxl
 cd /Path/to/codes/in/container
