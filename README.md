@@ -20,5 +20,9 @@ Make 2 directories for save intermidiate files (input data and labels) and final
 
 ### 3. Train models and output results
 1. Start docker container mounting a directory including these codes and necessary files we mentiond in section 2 (Set config file).
+sudo docker run -it --rm --gpus device=0 -v /Path/to/codes/in/host:Path/to/codes/in/container pytorch/pytorch:1.8.1-cuda11.1-cudnn8-runtime
+cd /ws
 2. Install required packages by pip and run.
+pip install scikit-learn pandas openpyxl
+
 
