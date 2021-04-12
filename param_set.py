@@ -16,7 +16,7 @@ output_dir = './results'
 preparation_params = {
     # Relative path of phenotypic data file
     'label_file_path': './Phenotypic_V1_0b_preprocessed1.csv',
-    # Relative path of each ROI timeseries files
+    # Relative path of each ROI time series files
     # Divide the path into 3 parts; 'site_id+subj_id' part and back and forth of it
     'path_structure': ['./Outputs/cpac/filt_global/rois_ho/','site_id+subj_id', '_rois_ho.1D']
 
