@@ -7,12 +7,12 @@ cv_num_test = 10
 calculate_fc_FLAG = True
 # If this is set to be True,  the trained models and performance indices are saved
 save_FLAG = True
-# Relative path to save data and labels intermidiate files from work space
+# Relative path to save data and labels intermediate files from work space
 source_dir = './sources'
 # Relative path to save trained models and performance indices
 output_dir = './results'
 
-# Parameters for generating intermidiate files
+# Parameters for generating intermediate files
 preparation_params = {
     # Relative path of phenotypic data file
     'label_file_path': './Phenotypic_V1_0b_preprocessed1.csv',
