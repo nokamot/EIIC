@@ -1,5 +1,5 @@
 # EIIC
-This is a repository of codes for An Extended Invariant Information Clustering is Effective for the Leave-One-Site-Out Cross-validation in Resting State Functional Connectivity Modelling
+This is a repository of codes for Extended Invariant Information Clustering is Effective for Leave-One-Site-Out Cross-Validation in Resting State Functional Connectivity Modelling
 
 ## Requirements
 We used docker container of pytorch/pytorch:1.8.1-cuda11.1-cudnn8-runtime for analysis.
